@@ -4,6 +4,7 @@ import path from "path";
 
 export default defineConfig({
   plugins: [react()],
+  base: "/O-M-A-Lashes/", // <--- Esto es clave para GitHub Pages
   test: {
     environment: "jsdom",
     globals: true,
